@@ -1,0 +1,17 @@
+\subsection{Evaluation Metrics}
+
+\subsubsection{Multiclass classification}
+For the multiclass dataset we use accuracy and macro-averaged F1 score.
+
+\subsubsection{Accuracy} Accuracy is the percentage of labels for which the class is correctly predicted. Note that for multiclass classification the micro-averaged F1 score is equal to the accuracy.
+
+\subsubsection{Macro-averaged F1 score} 
+Macro-averaged F1 score is computed by first computing the F1 score for each class independently and then take an averaging all the F1 scores. This metric treats all the classes as equal, independent of their frequency in the test set.
+
+\subsubsection{Multilabel classification}
+For multilabel classification we use three metrics - hamming loss, micro-averaged F1 score and macro-averaged F1 score. 
+
+\subsubsection{Hamming loss} Hamming loss is the proportion of mis-classified examples in the dataset.
+\subsubsection{Micro-averaged F1 score} F-measure averaging on the prediction matrix.
+
+\subsubsection{Macro-averaged F1 score} Macro-averaged F1 score is calculated by computing the F1 score for each of the labels, then averaging the label wise F1 scores.
