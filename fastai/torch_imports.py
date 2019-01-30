@@ -11,14 +11,14 @@ from torchvision.models import resnet18, resnet34, resnet50, resnet101, resnet15
 from torchvision.models import vgg16_bn, vgg19_bn
 from torchvision.models import densenet121, densenet161, densenet169, densenet201
 
-from .models.resnext_50_32x4d import resnext_50_32x4d
-from .models.resnext_101_32x4d import resnext_101_32x4d
-from .models.resnext_101_64x4d import resnext_101_64x4d
-from .models.wrn_50_2f import wrn_50_2f
-from .models.inceptionresnetv2 import InceptionResnetV2
-from .models.inceptionv4 import inceptionv4
-from .models.nasnet import nasnetalarge
-from .models.fa_resnet import *
+# from .models.resnext_50_32x4d import resnext_50_32x4d
+# from .models.resnext_101_32x4d import resnext_101_32x4d
+# from .models.resnext_101_64x4d import resnext_101_64x4d
+# from .models.wrn_50_2f import wrn_50_2f
+# from .models.inceptionresnetv2 import InceptionResnetV2
+# from .models.inceptionv4 import inceptionv4
+# from .models.nasnet import nasnetalarge
+# from .models.fa_resnet import *
 
 import warnings
 warnings.filterwarnings('ignore', message='Implicit dimension choice', category=UserWarning)

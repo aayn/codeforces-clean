@@ -2,11 +2,6 @@ from abc import ABC, abstractmethod
 from collections import Counter
 from functools import reduce
 import numpy as np
-from fastai import text as ft
-from fastai import dataloader as fd
-from fastai import dataset as fs
-from fastai import learner as fl
-from fastai import core as fc
 from sklearn.preprocessing import OneHotEncoder, MultiLabelBinarizer
 from skai.utils import get_classification_type
 

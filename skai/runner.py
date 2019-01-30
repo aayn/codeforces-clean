@@ -13,13 +13,6 @@ from torch.utils.data import Subset, ConcatDataset
 from sklearn.model_selection import KFold, StratifiedKFold, train_test_split, GridSearchCV
 from sklearn.metrics import hamming_loss, f1_score, classification_report
 
-from fastai import text as ft
-from fastai import dataloader as fd
-from fastai import dataset as fs
-from fastai import learner as fl
-from fastai import core as fc
-from fastai import metrics as fm
-
 from skai.dataset import TokenDataset, SimpleDataset
 from skai.sanitizer import sample_cleaner, small_class, small_class_multi
 from skai.utils import get_classification_type, weights_init, multilabel_prediction
